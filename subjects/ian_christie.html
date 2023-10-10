@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ian Christie</title>
+<link href="../style/kiosk_style.css" rel="stylesheet" type="text/css">
+<link href="../style/global.css" rel="stylesheet" type="text/css">
+
+	<script src="../scripts/jquery-3.4.1.min.js"></script>
+	
+
+
+</head>
+
+<body>
+<div id="topborder"></div>	
+
+
+<div id="maincontainer">
+		<img id="logo" src="../images/untold_stories_logo.png" alt="Untold Stories: World War 2"/>
+
+	<div id="subjectcontainer" style="background: no-repeat url(../images/ian_christie_image.png)">
+		
+		<div class="subjectcontent">
+
+			<div class="subject-content-wrapper">
+				<h1 class="subjectname">Ian Christie</h1>
+				<hr id="nameline"/>
+				<h4 class="subjectdetails">Leading Seaman Botswain &bull; Royal Canadian Navy &bull; 1943 &ndash; 1945</h4>
+				
+				<div class="subjectbio">
+					<p> <strong>Profile:</strong> Ian Christie commanded landing craft both on D-Day and in the landings in Southern France in August 1944 as part of Combined Operations.  After the Second World War, he became a Canadian war Correspondent during the Korean War, where he witnessed brutal ground combat.</p>
+					&nbsp;
+					<p><strong>Years of service:</strong> 1942 – 1945</p>
+					&nbsp;
+					<!--<p><strong>Focused Subject:</strong>Ian Christie's focus</p>-->
+					
+				</div>
+			</div>
+	
+			
+			<div class="videocontainer">
+			
+				<ul>
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Ian Christie/001 - Ian Christie (Prep for D-Day).mp4"><img class="videothumbnails" src="../images/thumbnails/ian_christie_vid_02.png" alt=""/><p class="vidcaptions">Prep for <br />D&ndash;Day</p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Ian Christie/002 - Ian Christie (Piloting the Higgins Boat).mp4"><img class="videothumbnails" src="../images/thumbnails/ian_christie_vid_03.png" alt=""/><p class="vidcaptions">
+						Piloting the <br/>Higgins Boat</p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Ian Christie/003 - Ian Christie (Juno Beach Landing).mp4"><img class="videothumbnails" src="../images/thumbnails/ian_christie_vid_04.png" alt=""/><p class="vidcaptions">Juno Beach <br /> Landing</p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Ian Christie/004 - Ian Christie (75 Years Later).mp4"><img class="videothumbnails" src="../images/thumbnails/ian_christie_vid_05.png" alt=""/><p class="vidcaptions">75 Years <br />Later</p></a></li>
+				
+				</ul>
+						
+			</div>
+			
+			<h1 class="instructions">Tap an Image to Play Video</h1>
+			
+			<a href="../index.html"><div id="homebutton"><h1 id="homelink"><img id="homearrow" src="../images/arrow.svg"/>Main Menu</h1></div></a>
+			
+	
+			
+		</div>
+	</div>	
+
+	
+</div> <!--This is the maincontainer closing tag-->
+	
+	   <div class="overlay vid-link" vidUrl="#"></div>
+	  <div class="main-vid-box">
+	    
+	   	      <div class="videoWrapper">
+	          <video autoplay="autoplay" class="myVideo" src="" frameborder="0" controls></video>
+	   	      </div>
+	  </div>
+  
+  <img class="close vid-link" vidUrl="#" src="../images/close_btn.svg"> <!--Create a close button and link locally-->
+	
+
+<div id="bottomborder"></div>	
+	
+	
+
+	
+	
+	
+</body>
+<!--Javascript which handles all the timing items. And video playback.-->		
+<script src="../scripts/timing_script.js"></script>
+</html>

@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/FuturaStd-Medium.woff2') format('woff2'),
+      url('../fonts/FuturaStd-Medium.woff') format('woff'),
+      url('../fonts/FuturaStd-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/FuturaStd-Light.woff2') format('woff2'),
+      url('../fonts/FuturaStd-Light.woff') format('woff'),
+      url('../fonts/FuturaStd-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Franklin Gothic Book';
+  src: url('../fonts/FranklinGothic-Book.woff2') format('woff2'),
+      url('../fonts/FranklinGothic-Book.woff') format('woff'),
+      url('../fonts/FranklinGothic-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/FranklinGothic-Heavy.woff2') format('woff2'),
+      url('../fonts/FranklinGothic-Heavy.woff') format('woff'),
+      url('../fonts/FranklinGothic-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/FuturaStd-Heavy.woff2') format('woff2'),
+      url('../fonts/FuturaStd-Heavy.woff') format('woff'),
+      url('../fonts/FuturaStd-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/FuturaStd-CondensedLight.woff2') format('woff2'),
+      url('../fonts/FuturaStd-CondensedLight.woff') format('woff'),
+      url('../fonts/FuturaStd-CondensedLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Franklin Gothic Medium Cond';
+  src: url('../fonts/FranklinGothic-MediumCond.woff2') format('woff2'),
+      url('../fonts/FranklinGothic-MediumCond.woff') format('woff'),
+      url('../fonts/FranklinGothic-MediumCond.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('../fonts/FuturaStd-Bold.woff2') format('woff2'),
+      url('../fonts/FuturaStd-Bold.woff') format('woff'),
+      url('../fonts/FuturaStd-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+  font-family: 'Futura Std', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Futura Std', sans-serif;
+}
+h6 {
+  margin: 0px;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --green: #0f372f;
+  --maroon: #5b3439;
+  --yellow: #fdac47;
+}
+
+
+/* index  */
+
+main {
+  padding: 120px;
+  background: no-repeat url(../images/main-bg.jpg) center;
+  background-size: cover;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.links a {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  border: solid 3px var(--green);
+}
+
+.links img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.soldier-details {
+  padding: .025rem .5rem .25rem 1.75rem;
+  background: no-repeat url(../images/soldier-card-bg.png) center;
+  background-position: bottom right;
+  background-size: 100% 100%;
+  margin-left: -16px;
+  margin-top: -1px;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.soldier-details p {
+  margin: 0px;
+}
+
+.soldier-details p:first-child {
+  margin-bottom: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+

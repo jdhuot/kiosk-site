@@ -1,0 +1,93 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Francis Clarke</title>
+<link href="../style/kiosk_style.css" rel="stylesheet" type="text/css">
+<link href="../style/global.css" rel="stylesheet" type="text/css">
+
+	<script src="../scripts/jquery-3.4.1.min.js"></script>
+	
+
+
+</head>
+
+<body>
+<div id="topborder"></div>	
+
+
+<div id="maincontainer">
+		<img id="logo" src="../images/untold_stories_logo.png" alt="Untold Stories: World War 2"/>
+
+	<div id="subjectcontainer" style="background: no-repeat url(../images/francis_clarke_subject_image.png)">
+		
+		<div class="subjectcontent">
+
+			<div class="subject-content-wrapper">
+				<h1 class="subjectname">Francise Clarke</h1>
+				<hr id="nameline"/>
+				<h4 class="subjectdetails">Major &bull; Calgary Highlanders &bull; 1939 &ndash; 1945</h4>
+				
+				<div class="subjectbio">
+					<p> <strong>Profile:</strong> Francis Herbert "Nobby" Clarke joined the Calgary Highlanders Non-Permanent Active Militia in 1939 and went overseas in 1942 as a lieutenant.  He served with the Highlanders in North-West Europe and was wounded on 20 July 1944 when he received a head wound at Hill 67 near Caen.  Lt.Col. Clarke received the Distinguished Service Order (DSO) on 7 November 1945 for his combat work as an officer, in particular for his "indifference to danger; cool and aggressive leadership; and sound judgement (sic)".  He completed his wartime service with the rank of major, and continued to serve with the Highlanders in peacetime, as the president of the Highlanders Association and eventually became commander of the infantry militia as lieutenant-colonel in 1959.  LCol Clarke died at the age of 79 on 19 August 1993.
+					</p>
+					&nbsp;
+					<p><strong>Years of service:</strong> 1939 &ndash; 1945</p>
+					&nbsp;
+					<!--<p><strong>Focused Subject:</strong> focused subject here</p>-->
+				</div>
+			</div>
+	
+			
+			<div class="videocontainer">
+			
+				<ul>
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Francis Clarke/001 - Frank Clarke (Enlisting).mp4"><img class="videothumbnails" src="../images/thumbnails/francis_clarke_vid_01.png" alt=""/><p class="vidcaptions">Enlisting<br/><span class="spacer">Spacing</span></p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Francis Clarke/002 - Frank Clarke (Bravery).mp4"><img class="videothumbnails" src="../images/thumbnails/francis_clarke_vid_02.png" alt=""/><p class="vidcaptions">Bravery<br/><span class="spacer">Spacing</span></p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Francis Clarke/003 - Frank Clarke (Walcheren Causeway 1944).mp4"><img class="videothumbnails" src="../images/thumbnails/francis_clarke_vid_03.png" alt=""/><p class="vidcaptions">Walcheren Causeway 1944</p></a></li>
+					
+					<li style="visibility: hidden;"><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Francis Clarke/video.mp4"><img class="videothumbnails" src="../images/thumbnails/thumbnail-placeholder.png" alt=""/><p class="vidcaptions"></p></a></li>
+					
+					<li style="visibility: hidden;"><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Francis Clarke/video.mp4"><img class="videothumbnails" src="../images/thumbnails/thumbnail-placeholder.png" alt=""/><p class="vidcaptions"></p></a></li>
+	
+				
+				</ul>
+						
+			</div>
+			
+			<h1 class="instructions">Tap an Image to Play Video</h1>
+			
+			<a href="../index.html"><div id="homebutton"><h1 id="homelink"><img id="homearrow" src="../images/arrow.svg"/>Main Menu</h1></div></a>
+			
+	
+			
+		</div>
+	</div>	
+
+	
+</div> <!--This is the maincontainer closing tag-->
+	
+	   <div class="overlay vid-link" vidUrl="#"></div>
+	  <div class="main-vid-box">
+	    
+	   	      <div class="videoWrapper">
+	          <video autoplay="autoplay" class="myVideo" src="" frameborder="0" controls></video>
+	   	      </div>
+	  </div>
+  
+  <img class="close vid-link" vidUrl="#" src="../images/close_btn.svg"> <!--Create a close button and link locally-->
+	
+
+<div id="bottomborder"></div>	
+	
+	
+
+	
+	
+	
+</body>
+<!--Javascript which handles all the timing items. -->		
+<script src="../scripts/timing_script.js"></script>
+</html>

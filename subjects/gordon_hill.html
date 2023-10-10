@@ -1,0 +1,93 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gordon Hill</title>
+<link href="../style/kiosk_style.css" rel="stylesheet" type="text/css">
+<link href="../style/global.css" rel="stylesheet" type="text/css">
+
+	<script src="../scripts/jquery-3.4.1.min.js"></script>
+	
+
+
+</head>
+
+<body>
+<div id="topborder"></div>	
+
+
+<div id="maincontainer">
+		<img id="logo" src="../images/untold_stories_logo.png" alt="Untold Stories: World War 2"/>
+
+	<div id="subjectcontainer" style="background: no-repeat url(../images/subject_placeholder_image.png)">
+		
+		<div class="subjectcontent">
+
+			<div class="subject-content-wrapper">
+				<h1 class="subjectname">Gordon Hill</h1>
+				<hr id="nameline"/>
+				<h4 class="subjectdetails">rank &bull; company &bull; 1941 &ndash; 1945</h4>
+				
+				<div class="subjectbio">
+					<p> <strong>Profile:</strong>Gordon Hill profile
+					</p>
+					&nbsp;
+					<p><strong>Years of service:</strong> 1941 – 1945</p>
+					&nbsp;
+					<p><strong>Focused Subject:</strong> focused subject here</p>
+					
+				</div>
+			</div>
+	
+			
+			<div class="videocontainer">
+			
+				<ul>
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Gordon Hill/video.mp4"><img class="videothumbnails" src="../images/thumbnails/thumbnail-placeholder.png" alt=""/><p class="vidcaptions">Bridge on a Tank</p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Gordon Hill/video.mp4"><img class="videothumbnails" src="../images/thumbnails/thumbnail-placeholder.png" alt=""/><p class="vidcaptions">How to Cross</p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Gordon Hill/video.mp4"><img class="videothumbnails" src="../images/thumbnails/thumbnail-placeholder.png" alt=""/><p class="vidcaptions">Lay Some Smoke</p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Gordon Hill/video.mp4"><img class="videothumbnails" src="../images/thumbnails/thumbnail-placeholder.png" alt=""/><p class="vidcaptions">Crossing the River</p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/Gordon Hill/video.mp4"><img class="videothumbnails" src="../images/thumbnails/thumbnail-placeholder.png" alt=""/><p class="vidcaptions">Close Call</p></a></li>
+				
+				</ul>
+						
+			</div>
+			
+			<h1 class="instructions">Tap an Image to Play Video</h1>
+			
+			<a href="../index.html"><div id="homebutton"><h1 id="homelink"><img id="homearrow" src="../images/arrow.svg"/>Main Menu</h1></div></a>
+			
+	
+			
+		</div>
+	</div>	
+
+	
+</div> <!--This is the maincontainer closing tag-->
+	
+	   <div class="overlay vid-link" vidUrl="#"></div>
+	  <div class="main-vid-box">
+	    
+	   	      <div class="videoWrapper">
+	          <video autoplay="autoplay" class="myVideo" src="" frameborder="0" controls></video>
+	   	      </div>
+	  </div>
+  
+  <img class="close vid-link" vidUrl="#" src="../images/close_btn.svg"> <!--Create a close button and link locally-->
+	
+
+<div id="bottomborder"></div>	
+	
+	
+
+	
+	
+	
+</body>
+<!--Javascript which handles all the timing items. -->		
+<script src="../scripts/timing_script.js"></script>
+</html>

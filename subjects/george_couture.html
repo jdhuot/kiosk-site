@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>George Couture</title>
+<link href="../style/kiosk_style.css" rel="stylesheet" type="text/css">
+<link href="../style/global.css" rel="stylesheet" type="text/css">
+
+	<script src="../scripts/jquery-3.4.1.min.js"></script>
+	
+
+
+</head>
+
+<body>
+<div id="topborder"></div>	
+
+
+<div id="maincontainer">
+		<img id="logo" src="../images/untold_stories_logo.png" alt="Untold Stories: World War 2"/>
+
+	<div id="subjectcontainer" style="background: no-repeat url(../images/subject_placeholder_image.png)">
+		
+		<div class="subjectcontent">
+
+			<div class="subject-content-wrapper">
+				<h1 class="subjectname">George Couture</h1>
+				<hr id="nameline"/>
+				<h4 class="subjectdetails">Private &bull; Royal Winnipeg Rifles &bull; 1942 &ndash; 1945</h4>
+				
+				<div class="subjectbio">
+					<p> <strong>Profile:</strong> George grew up in Selkirk, Manitoba, with deep family roots in New France (originally from Normandy) dating to the 17th century. In 1942, he enlisted in the Canadian Army in Winnipeg. On June 6, 1944 (D-Day) he landed at Courselle-Sur-Mer (Juno Beach) France with the Royal Winnipeg Rifles - bringing his family full circle liberating his ancestral homeland. Two days later he was wounded and captured by the Germans. He was then sent to Krakow, Poland as a Prisoner of War (POW).  He was finally liberated by the Allied Forces in late April, 1945.</p>
+					&nbsp;
+					<p><strong>Years of service:</strong> 1941 – 1945</p>
+					&nbsp;
+					<!--<p><strong>Focused Subject:</strong> George Couture subject</p>-->
+					
+				</div>
+			</div>
+	
+			
+			<div class="videocontainer">
+			
+				<ul>
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/George Couture/001 - George Couture (Landing on Juno Beach).mp4"><img class="videothumbnails" src="../images/thumbnails/george_couture_vid_01.png" alt=""/><p class="vidcaptions">Landing on <br /> Juno Beach</p><span class="spacer">spacing</span></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/George Couture/002 - George Couture (German Tank Destroys George's Carrier).mp4"><img class="videothumbnails" src="../images/thumbnails/george_couture_vid_02.png" alt=""/><p class="vidcaptions">German Tank Destroys Carrier</p><span class="spacer">spacing</span></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/George Couture/003 - George Couture (Capture by the Germans and Death of Wounded Canadians).mp4"><img class="videothumbnails" src="../images/thumbnails/george_couture_vid_03.png" alt=""/><p class="vidcaptions">German Capture &amp; Death of Wounded Canadians</p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/George Couture/004 - George Couture (Surviving Dysentery and Stalag 11B POW Camp).mp4"><img class="videothumbnails" src="../images/thumbnails/george_couture_vid_04.png" alt=""/><p class="vidcaptions">Surviving Dysentery and POW Camp<br/><span class="spacer">spacing</span></p></a></li>
+					
+					<li><a class="video-link" data-group="gallery" href="#" vidURL="../videos/George Couture/005 - George Couture (Red Cross Parcels).mp4"><img class="videothumbnails" src="../images/thumbnails/george_couture_vid_05.png" alt=""/><p class="vidcaptions">Red Cross <br />Parcels <br/> <span class="spacer">spacing</span></p></a></li>
+				
+				</ul>
+						
+			</div>
+			
+			<h1 class="instructions">Tap an Image to Play Video</h1>
+			
+			<a href="../index.html"><div id="homebutton"><h1 id="homelink"><img id="homearrow" src="../images/arrow.svg"/>Main Menu</h1></div></a>
+			
+	
+			
+		</div>
+	</div>	
+
+	
+</div> <!--This is the maincontainer closing tag-->
+	
+	   <div class="overlay vid-link" vidUrl="#"></div>
+	  <div class="main-vid-box">
+	    
+	   	      <div class="videoWrapper">
+	          <video autoplay="autoplay" class="myVideo" src="" frameborder="0" controls></video>
+	   	      </div>
+	  </div>
+  
+  <img class="close vid-link" vidUrl="#" src="../images/close_btn.svg"> <!--Create a close button and link locally-->
+	
+
+<div id="bottomborder"></div>	
+	
+	
+
+	
+	
+	
+</body>
+<!--Javascript which handles all the timing items. -->		
+<script src="../scripts/timing_script.js"></script>
+</html>
